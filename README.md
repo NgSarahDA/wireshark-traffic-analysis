@@ -25,10 +25,20 @@ les différents types de flux de données circulant sur le réseau.
 5. Documentation des findings clés
 
 ## Résultats & Findings
-[À compléter avec tes analyses]
+**Durée de capture**: 20.04 secondes
+**Interface réseau**: Wi-Fi
+**Nombre de paquets**: 461
+**Protocole identifiés**:
+- TCP
+- HTTP
+L'analyse des paquets montre un trafic de paquets essentiellement constitué de paquets TCP sur IPv4.
+Les échanges sont principalement une communication locale entre des applications.
+Un service HTTP est accessible sur le port TCP  19575.
+Les échange comprennent plusieurs ouvertures et fermetures de connexions TCP.
 
 ## Screenshots
-[screenshots de Wireshark]
+[screenshots de Wireshark]<img width="1917" height="1020" alt="Capture d&#39;écran 2026-10-03 155531" src="https://github.com/user-attachments/assets/89757b9d-c78f-499e-9071-0282ce9f160e" />
+
 
 ## Conclusion
-[Ce que tu as appris et comment c'est utile pour la cybersécurité]
+cette analyse m'a permis d'apprendre à utiliser Wireshark pour capturer et analyser le trafic réseau. En cybersécurité, cet outil est utile pour détecter les activités suspectes, identifier les failles et renforcer la sécurité des réseaux.
