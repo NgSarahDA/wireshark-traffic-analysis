@@ -19,7 +19,7 @@ les différents types de flux de données circulant sur le réseau.
 
 ## Méthodologie
 1. Lancement de Wireshark sur l'interface réseau principale
-2. Capture du trafic réseau pendant [durée : 10 minutes]
+2. Capture du trafic réseau pendant [durée : 20 sec]
 3. Filtrage et analyse des paquets capturés
 4. Identification des protocoles et des flux principaux
 5. Documentation des findings clés
